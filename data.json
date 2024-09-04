@@ -1,638 +1,1450 @@
 {
   "quizzes": [
     {
-      "title": "Java Programming Model Paper 1",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Introduction to Data Communication and Networking - Paper 1",
+      "icon": "./assets/images/icon-networking.svg",
       "questions": [
         {
-          "question": "What is the primary purpose of the 'main' method in a Java program?",
-          "options": ["To initialize variables", "To serve as the entry point of the program", "To handle exceptions", "To perform mathematical calculations"],
-          "answer": "To serve as the entry point of the program"
+          "question": "What is the main purpose of data communication?",
+          "options": [
+            "To share information between two or more devices",
+            "To store data permanently",
+            "To process data in real-time",
+            "To improve the speed of computing"
+          ],
+          "answer": "To share information between two or more devices",
+          "explanation": "Data communication refers to the process of exchanging information between devices over a communication medium."
         },
         {
-          "question": "Which of the following is a valid Java variable name?",
-          "options": ["1stVariable", "first Variable", "first_variable", "first-variable"],
-          "answer": "first_variable"
+          "question": "Which of the following is an example of digital data?",
+          "options": [
+            "Voice signal",
+            "Temperature",
+            "Document",
+            "Pressure"
+          ],
+          "answer": "Document",
+          "explanation": "Digital data represents information using binary values (0s and 1s), such as a document, image, or video."
         },
         {
-          "question": "Which data type would you use to store a character value?",
-          "options": ["int", "String", "char", "boolean"],
-          "answer": "char"
+          "question": "Which component is responsible for governing the rules of communication in a data communication system?",
+          "options": [
+            "Message",
+            "Sender",
+            "Receiver",
+            "Protocol"
+          ],
+          "answer": "Protocol",
+          "explanation": "Protocols define the rules for data communication, ensuring devices can exchange information properly."
         },
         {
-          "question": "How do you declare an integer variable in Java?",
-          "options": ["int x;", "integer x;", "num x;", "int: x;"],
-          "answer": "int x;"
+          "question": "Which type of communication allows data to flow in both directions simultaneously?",
+          "options": [
+            "Simplex",
+            "Half-Duplex",
+            "Full-Duplex",
+            "Multiplex"
+          ],
+          "answer": "Full-Duplex",
+          "explanation": "Full-Duplex communication allows simultaneous data transmission and reception between devices."
         },
         {
-          "question": "Which of the following operators is used for addition in Java?",
-          "options": ["-", "+", "*", "/"],
-          "answer": "+"
+          "question": "In which type of network do all devices connect to a single communication line?",
+          "options": [
+            "Ring",
+            "Bus",
+            "Mesh",
+            "Star"
+          ],
+          "answer": "Bus",
+          "explanation": "In a Bus topology, all devices are connected to a single communication line and share the bandwidth."
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(10 + 5);`?",
-          "options": ["10", "5", "15", "105"],
-          "answer": "15"
+          "question": "Which transmission medium uses light to carry data?",
+          "options": [
+            "Coaxial cable",
+            "Twisted-pair wire",
+            "Fiber-optic cable",
+            "Free space (air)"
+          ],
+          "answer": "Fiber-optic cable",
+          "explanation": "Fiber-optic cables use light signals to transmit data over long distances, providing high-speed communication."
         },
         {
-          "question": "Which method is used to print a message to the console in Java?",
-          "options": ["System.print()", "print()", "System.out.println()", "println()"],
-          "answer": "System.out.println()"
+          "question": "What is the term used for a network covering a city?",
+          "options": [
+            "LAN",
+            "WAN",
+            "MAN",
+            "PAN"
+          ],
+          "answer": "MAN",
+          "explanation": "A Metropolitan Area Network (MAN) covers a city or metropolitan area."
         },
         {
-          "question": "What is the size of a boolean data type in Java?",
-          "options": ["8 bits", "16 bits", "32 bits", "1 bit"],
-          "answer": "1 bit"
+          "question": "Which of the following network types is designed for personal devices such as smartphones and smartwatches?",
+          "options": [
+            "LAN",
+            "PAN",
+            "WAN",
+            "MAN"
+          ],
+          "answer": "PAN",
+          "explanation": "A Personal Area Network (PAN) is used for connecting personal devices like phones, tablets, and wearables."
         },
         {
-          "question": "Which keyword is used to define a constant variable in Java?",
-          "options": ["static", "const", "final", "immutable"],
-          "answer": "final"
+          "question": "What is the main disadvantage of circuit switching?",
+          "options": [
+            "Wasted capacity during idle time",
+            "Limited scalability",
+            "Expensive infrastructure",
+            "Data is transmitted in packets"
+          ],
+          "answer": "Wasted capacity during idle time",
+          "explanation": "Circuit switching dedicates a communication path for the entire duration of the connection, leading to wasted capacity during idle times."
         },
         {
-          "question": "What is the correct way to initialize a variable of type String?",
-          "options": ["String name = 'John';", "String name = John;", "String name = \"John\";", "String name = `John`;"],
-          "answer": "String name = \"John\";"
+          "question": "Which of the following is a performance metric used in data communication?",
+          "options": [
+            "Protocol",
+            "Throughput",
+            "Topology",
+            "LAN"
+          ],
+          "answer": "Throughput",
+          "explanation": "Throughput refers to the rate at which data is successfully transmitted from sender to receiver."
         },
         {
-          "question": "Which of these is a primitive data type in Java?",
-          "options": ["String", "int", "Object", "ArrayList"],
-          "answer": "int"
+          "question": "Which type of switching involves dividing data into packets for transmission?",
+          "options": [
+            "Circuit switching",
+            "Packet switching",
+            "Message switching",
+            "Frame switching"
+          ],
+          "answer": "Packet switching",
+          "explanation": "In packet switching, data is divided into small packets that are transmitted independently across the network."
         },
         {
-          "question": "What does IDE stand for in the context of Java programming?",
-          "options": ["Integrated Development Environment", "International Development Environment", "Integrated Design Environment", "Internal Development Environment"],
-          "answer": "Integrated Development Environment"
+          "question": "What is the main function of a router in a network?",
+          "options": [
+            "To forward data between devices in the same network",
+            "To connect different networks",
+            "To connect devices wirelessly",
+            "To store data for future use"
+          ],
+          "answer": "To connect different networks",
+          "explanation": "Routers are used to connect different networks and forward data between them."
         },
         {
-          "question": "Which of the following is the correct syntax to create a single-line comment in Java?",
-          "options": ["/* comment */", "// comment", "<!-- comment -->", "# comment"],
-          "answer": "// comment"
+          "question": "Which of the following topologies uses a central hub to manage communication?",
+          "options": [
+            "Mesh",
+            "Star",
+            "Ring",
+            "Bus"
+          ],
+          "answer": "Star",
+          "explanation": "In a Star topology, all devices are connected to a central hub, which manages data communication between devices."
         },
         {
-          "question": "Which operator is used to compare two values for equality in Java?",
-          "options": ["==", "=", "equals()", "!"],
-          "answer": "=="
+          "question": "What does 'simplex' data flow mean?",
+          "options": [
+            "Data can flow in both directions simultaneously",
+            "Data flows only in one direction",
+            "Data alternates between transmission and reception",
+            "Data flows to multiple receivers at once"
+          ],
+          "answer": "Data flows only in one direction",
+          "explanation": "In simplex communication, data flows only in one direction, such as a keyboard sending input to a computer."
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(5 / 2);`?",
-          "options": ["2", "2.5", "3", "2.0"],
-          "answer": "2"
+          "question": "What is the role of the transmission medium in a data communication system?",
+          "options": [
+            "It defines the communication rules",
+            "It carries the message from sender to receiver",
+            "It receives the message",
+            "It creates the message"
+          ],
+          "answer": "It carries the message from sender to receiver",
+          "explanation": "The transmission medium is the physical path through which data travels from the sender to the receiver."
         },
         {
-          "question": "How do you start a block of code that will run if a condition is true in Java?",
-          "options": ["if(condition) {", "while(condition) {", "for(condition) {", "do { condition }"],
-          "answer": "if(condition) {"
+          "question": "What is a common example of a simplex device?",
+          "options": [
+            "Telephone",
+            "Walkie-talkie",
+            "Monitor",
+            "Computer"
+          ],
+          "answer": "Monitor",
+          "explanation": "A monitor is a simplex device as it only receives data (output) without sending any data back."
         },
         {
-          "question": "Which of these is not a valid data type in Java?",
-          "options": ["double", "float", "real", "char"],
-          "answer": "real"
+          "question": "Which device is responsible for forwarding data within a small network?",
+          "options": [
+            "Router",
+            "Switch",
+            "Modem",
+            "Hub"
+          ],
+          "answer": "Switch",
+          "explanation": "A switch connects devices within a small network and forwards data between them."
         },
         {
-          "question": "Which of the following is used to create a loop in Java?",
-          "options": ["if", "while", "switch", "case"],
-          "answer": "while"
+          "question": "Which term refers to a network's geographical size and extent?",
+          "options": [
+            "Protocol",
+            "Topology",
+            "Network extent",
+            "Throughput"
+          ],
+          "answer": "Network extent",
+          "explanation": "Network extent refers to the geographical size of the network, such as PAN, LAN, MAN, or WAN."
         },
         {
-          "question": "Which keyword is used to define a subclass in Java?",
-          "options": ["subclass", "inherits", "extends", "super"],
-          "answer": "extends"
+          "question": "What is the main purpose of packet queuing in a network?",
+          "options": [
+            "To decrease data loss",
+            "To handle data overflow",
+            "To manage bandwidth usage",
+            "To buffer packets waiting for transmission"
+          ],
+          "answer": "To buffer packets waiting for transmission",
+          "explanation": "Packet queuing occurs when data arrives faster than it can be transmitted, and packets are buffered until they can be sent."
         },
         {
-          "question": "What is the default value of a boolean variable in Java?",
-          "options": ["true", "false", "0", "null"],
-          "answer": "false"
+          "question": "What happens to a packet when it arrives at a full buffer?",
+          "options": [
+            "It is retransmitted automatically",
+            "It is dropped",
+            "It is forwarded to another buffer",
+            "It is saved for later transmission"
+          ],
+          "answer": "It is dropped",
+          "explanation": "When a buffer is full, any incoming packets are dropped, which may require retransmission."
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 2",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Protocol Architecture - Paper 2",
+      "icon": "./assets/images/icon-networking.svg",
       "questions": [
         {
-          "question": "Which of the following is the correct way to declare a float variable in Java?",
-          "options": ["float f = 1.0;", "float f = 1.0f;", "float f = '1.0';", "float f = 1;"],
-          "answer": "float f = 1.0f;"
+          "question": "What is the main purpose of a protocol in networking?",
+          "options": [
+            "To define the format of data",
+            "To govern the communication between devices",
+            "To store information securely",
+            "To convert data into binary"
+          ],
+          "answer": "To govern the communication between devices",
+          "explanation": "A protocol is a set of rules that controls the exchange of data between devices in a network."
         },
         {
-          "question": "Which of these is a reserved keyword in Java?",
-          "options": ["include", "try", "define", "scan"],
-          "answer": "try"
+          "question": "Which layer of the TCP/IP model is responsible for moving data between devices on the same network?",
+          "options": [
+            "Application Layer",
+            "Transport Layer",
+            "Link Layer",
+            "Network Layer"
+          ],
+          "answer": "Link Layer",
+          "explanation": "The Link Layer handles data transfer between devices on the same physical network."
         },
         {
-          "question": "What is the output of the following code: `System.out.println(9 % 4);`?",
-          "options": ["1", "2", "3", "4"],
-          "answer": "1"
+          "question": "What does encapsulation refer to in the context of networking?",
+          "options": [
+            "Adding a protocol header to data",
+            "Sending data to multiple devices",
+            "Compressing data before transmission",
+            "Encrypting data for security"
+          ],
+          "answer": "Adding a protocol header to data",
+          "explanation": "Encapsulation is the process of adding headers and possibly trailers around data to form a packet suitable for transmission."
         },
         {
-          "question": "Which of the following is an example of a ternary operator in Java?",
-          "options": ["if-else", "for", "?:", "switch-case"],
-          "answer": "?:"
+          "question": "In the OSI model, which layer is responsible for end-to-end communication and error recovery?",
+          "options": [
+            "Application Layer",
+            "Transport Layer",
+            "Network Layer",
+            "Physical Layer"
+          ],
+          "answer": "Transport Layer",
+          "explanation": "The Transport Layer ensures reliable end-to-end communication, managing data transmission and error recovery."
         },
         {
-          "question": "Which statement is used to terminate a loop in Java?",
-          "options": ["exit", "break", "continue", "stop"],
-          "answer": "break"
+          "question": "Which of the following is NOT a part of the TCP/IP protocol stack?",
+          "options": [
+            "Network Layer",
+            "Transport Layer",
+            "Application Layer",
+            "Session Layer"
+          ],
+          "answer": "Session Layer",
+          "explanation": "The Session Layer is part of the OSI model, not the TCP/IP stack, which combines its functionality into the Application Layer."
         },
         {
-          "question": "What does the following code print? `String str = \"Java\"; System.out.println(str.length());`",
-          "options": ["4", "5", "6", "3"],
-          "answer": "4"
+          "question": "Which protocol is used to translate domain names into IP addresses?",
+          "options": [
+            "HTTP",
+            "DNS",
+            "TCP",
+            "UDP"
+          ],
+          "answer": "DNS",
+          "explanation": "DNS (Domain Name System) translates human-friendly domain names like www.google.com into IP addresses."
         },
         {
-          "question": "Which keyword is used to handle exceptions in Java?",
-          "options": ["handle", "catch", "throw", "try"],
-          "answer": "catch"
+          "question": "What is the main difference between TCP and UDP?",
+          "options": [
+            "TCP is connection-oriented, UDP is connectionless",
+            "TCP is faster, UDP is slower",
+            "TCP is used for DNS, UDP is used for HTTP",
+            "TCP is unreliable, UDP is reliable"
+          ],
+          "answer": "TCP is connection-oriented, UDP is connectionless",
+          "explanation": "TCP provides a reliable connection-oriented service, while UDP is faster but connectionless and does not guarantee delivery."
         },
         {
-          "question": "Which of these loops is guaranteed to run at least once?",
-          "options": ["for", "while", "do-while", "foreach"],
-          "answer": "do-while"
+          "question": "Which layer of the TCP/IP model handles routing of data from source to destination?",
+          "options": [
+            "Physical Layer",
+            "Network Layer",
+            "Transport Layer",
+            "Application Layer"
+          ],
+          "answer": "Network Layer",
+          "explanation": "The Network Layer handles routing and forwarding of data packets to ensure they reach their destination across different networks."
         },
         {
-          "question": "Which class is the parent class of all classes in Java?",
-          "options": ["System", "String", "Object", "Main"],
-          "answer": "Object"
+          "question": "In the context of TCP/IP, what is a datagram?",
+          "options": [
+            "A packet at the Application Layer",
+            "A packet at the Link Layer",
+            "A packet at the Network Layer",
+            "A packet at the Physical Layer"
+          ],
+          "answer": "A packet at the Network Layer",
+          "explanation": "A datagram is a unit of data at the Network Layer of the TCP/IP protocol stack, typically used in connectionless communications."
         },
         {
-          "question": "Which of the following is a feature of the Java programming language?",
-          "options": ["Platform-dependent", "Single-threaded", "Garbage collection", "Multiple inheritance"],
-          "answer": "Garbage collection"
+          "question": "Which protocol provides reliable data transmission by ensuring error recovery?",
+          "options": [
+            "HTTP",
+            "UDP",
+            "TCP",
+            "IP"
+          ],
+          "answer": "TCP",
+          "explanation": "TCP (Transmission Control Protocol) provides reliable data transmission by detecting errors and retransmitting lost packets."
         },
         {
-          "question": "Which method can be used to find the largest number in a set of numbers in Java?",
-          "options": ["Math.max()", "Math.min()", "Math.abs()", "Math.sqrt()"],
-          "answer": "Math.max()"
+          "question": "What is the PDU (Protocol Data Unit) called at the Transport Layer in TCP/IP?",
+          "options": [
+            "Frame",
+            "Packet",
+            "Segment",
+            "Message"
+          ],
+          "answer": "Segment",
+          "explanation": "At the Transport Layer, the PDU is called a segment, which contains the data and transport layer headers."
         },
         {
-          "question": "Which of these is a valid way to create an array of integers in Java?",
-          "options": ["int[] arr = new int[5];", "int arr = new int[5];", "int[5] arr;", "int arr[5];"],
-          "answer": "int[] arr = new int[5];"
+          "question": "Which of the following is a responsibility of the Physical Layer in the TCP/IP model?",
+          "options": [
+            "Moving individual bits across a network medium",
+            "Encapsulating data into frames",
+            "Managing end-to-end communication",
+            "Routing data between networks"
+          ],
+          "answer": "Moving individual bits across a network medium",
+          "explanation": "The Physical Layer is responsible for transmitting raw bits over a physical communication channel, like a wire or fiber-optic cable."
         },
         {
-          "question": "Which keyword is used to define a package in Java?",
-          "options": ["define", "package", "include", "namespace"],
-          "answer": "package"
+          "question": "What does the term 'peer-to-peer communication' mean in protocol layering?",
+          "options": [
+            "Communication between different networks",
+            "Communication between devices at the same protocol layer",
+            "Direct communication without intermediaries",
+            "Using multiple protocols at once"
+          ],
+          "answer": "Communication between devices at the same protocol layer",
+          "explanation": "Peer-to-peer communication refers to communication between devices at the same layer on the sender and receiver sides."
         },
         {
-          "question": "What will be the output of the following code? `System.out.println(\"Hello\" + \" World\");`",
-          "options": ["Hello World", "HelloWorld", "Hello+World", "Hello + World"],
-          "answer": "Hello World"
+          "question": "In protocol architecture, what is the main benefit of layering?",
+          "options": [
+            "Reduces data loss",
+            "Enables faster transmission",
+            "Simplifies troubleshooting and protocol design",
+            "Improves data compression"
+          ],
+          "answer": "Simplifies troubleshooting and protocol design",
+          "explanation": "Layering simplifies protocol design by separating tasks into distinct layers, making it easier to troubleshoot and upgrade each part independently."
         },
         {
-          "question": "Which of the following is not a valid Java operator?",
-          "options": ["&&", "||", "&|", "!="],
-          "answer": "&|"
+          "question": "Which of the following protocols is used for email transfer in the Application Layer?",
+          "options": [
+            "SMTP",
+            "HTTP",
+            "FTP",
+            "DNS"
+          ],
+          "answer": "SMTP",
+          "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending and receiving email messages over the Internet."
         },
         {
-          "question": "Which method is used to convert a string to an integer in Java?",
-          "options": ["Integer.parseInt()", "String.toInt()", "toString()", "int.valueOf()"],
-          "answer": "Integer.parseInt()"
+          "question": "Which of the following layers of the OSI model is responsible for establishing, managing, and terminating communication sessions?",
+          "options": [
+            "Session Layer",
+            "Transport Layer",
+            "Network Layer",
+            "Data Link Layer"
+          ],
+          "answer": "Session Layer",
+          "explanation": "The Session Layer in the OSI model manages the setup, control, and termination of communication sessions between devices."
         },
         {
-          "question": "What is the result of `true && false` in Java?",
-          "options": ["true", "false", "null", "0"],
-          "answer": "false"
+          "question": "Which TCP/IP layer corresponds to the Data Link Layer in the OSI model?",
+          "options": [
+            "Network Layer",
+            "Link Layer",
+            "Transport Layer",
+            "Physical Layer"
+          ],
+          "answer": "Link Layer",
+          "explanation": "The Link Layer in TCP/IP corresponds to both the Data Link and Physical layers of the OSI model."
         },
         {
-          "question": "Which of the following data types is used to store decimal numbers in Java?",
-          "options": ["int", "double", "char", "boolean"],
-          "answer": "double"
+          "question": "What is the PDU at the Data Link Layer of the OSI model?",
+          "options": [
+            "Segment",
+            "Frame",
+            "Packet",
+            "Message"
+          ],
+          "answer": "Frame",
+          "explanation": "The PDU at the Data Link Layer is called a frame, which includes both data and control information like error checking."
         },
         {
-          "question": "Which method is used to get the current date and time in Java?",
-          "options": ["Date.now()", "LocalDateTime.now()", "System.currentTime()", "Time.now()"],
-          "answer": "LocalDateTime.now()"
+          "question": "Which protocol suite includes the Internet Protocol (IP)?",
+          "options": [
+            "OSI Model",
+            "TCP/IP",
+            "FTP",
+            "SMTP"
+          ],
+          "answer": "TCP/IP",
+          "explanation": "The TCP/IP protocol suite includes the Internet Protocol (IP) for routing data across networks."
         },
         {
-          "question": "Which keyword is used to create an interface in Java?",
-          "options": ["class", "interface", "implements", "extends"],
-          "answer": "interface"
+          "question": "Which protocol is used to transfer files between computers over a network?",
+          "options": [
+            "HTTP",
+            "SMTP",
+            "FTP",
+            "DNS"
+          ],
+          "answer": "FTP",
+          "explanation": "FTP (File Transfer Protocol) is used for transferring files between computers over a network."
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 3",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Physical Layer - Paper 3",
+      "icon": "./assets/images/icon-physical-layer.svg",
       "questions": [
         {
-          "question": "Which of the following statements is used to create a new object in Java?",
-          "options": ["create Object()", "new Object()", "Object.new()", "new()"],
-          "answer": "new Object()"
+          "question": "What is the main responsibility of the physical layer in the TCP/IP model?",
+          "options": [
+            "Transmitting raw bits over the communication medium",
+            "Routing data across networks",
+            "Handling end-to-end communication",
+            "Managing network security"
+          ],
+          "answer": "Transmitting raw bits over the communication medium",
+          "explanation": "The physical layer is responsible for transmitting raw bits (0s and 1s) over a physical communication channel like a wire or fiber-optic cable."
         },
         {
-          "question": "Which keyword is used to refer to the immediate parent class object?",
-          "options": ["super", "this", "parent", "base"],
-          "answer": "super"
+          "question": "Which of the following is an example of guided transmission media?",
+          "options": [
+            "Fiber-optic cable",
+            "Wi-Fi",
+            "Bluetooth",
+            "Infrared"
+          ],
+          "answer": "Fiber-optic cable",
+          "explanation": "Fiber-optic cables are a type of guided transmission media where data is transmitted using light through a physical medium."
         },
         {
-          "question": "Which of the following is not a valid method of the String class in Java?",
-          "options": ["toLowerCase()", "toUpperCase()", "reverse()", "charAt()"],
-          "answer": "reverse()"
+          "question": "What does modulation refer to in the context of analog signals?",
+          "options": [
+            "Encoding data into digital signals",
+            "Varying a signal's properties to represent data",
+            "Converting binary data into pulses",
+            "Compressing data for transmission"
+          ],
+          "answer": "Varying a signal's properties to represent data",
+          "explanation": "Modulation is the process of varying one or more properties of an analog signal (amplitude, frequency, or phase) to represent digital data."
         },
         {
-          "question": "Which of the following access specifiers restricts access to the members of a class from any class outside the package?",
-          "options": ["private", "protected", "public", "default"],
-          "answer": "private"
+          "question": "Which encoding scheme represents binary data using two voltage levels?",
+          "options": [
+            "Manchester",
+            "Binary",
+            "Ternary",
+            "Unipolar"
+          ],
+          "answer": "Binary",
+          "explanation": "Binary encoding uses two voltage levels (typically 0 and 1) to represent digital data in a transmission system."
         },
         {
-          "question": "Which method is used to get the length of an array in Java?",
-          "options": ["length()", "size()", "getLength()", "arraySize()"],
-          "answer": "length"
+          "question": "Which of the following is a key characteristic of optical fiber cables?",
+          "options": [
+            "Low data rates",
+            "High susceptibility to EMI",
+            "Long-distance data transmission",
+            "Low installation cost"
+          ],
+          "answer": "Long-distance data transmission",
+          "explanation": "Optical fiber cables support high data rates and long-distance data transmission with low signal loss and are immune to electromagnetic interference (EMI)."
         },
         {
-          "question": "Which of the following is a valid syntax to call a constructor of the parent class?",
-          "options": ["parent()", "super()", "this()", "base()"],
-          "answer": "super()"
+          "question": "What is the function of a Network Interface Card (NIC)?",
+          "options": [
+            "Converts digital data to signals",
+            "Encodes data for secure transmission",
+            "Connects a device to a network",
+            "Compresses data before transmission"
+          ],
+          "answer": "Connects a device to a network",
+          "explanation": "A NIC connects a device to a network, enabling it to transmit and receive data over a wired or wireless medium."
         },
         {
-          "question": "Which keyword is used to create a class in Java?",
-          "options": ["new", "create", "class", "define"],
-          "answer": "class"
+          "question": "Which term refers to the weakening of a signal as it travels over a transmission medium?",
+          "options": [
+            "Interference",
+            "Crosstalk",
+            "Attenuation",
+            "Modulation"
+          ],
+          "answer": "Attenuation",
+          "explanation": "Attenuation refers to the gradual weakening of a signal as it travels further from the source along a transmission medium."
         },
         {
-          "question": "Which operator is used to access the members of an object?",
-          "options": [".", "::", "->", "."],
-          "answer": "."
+          "question": "Which signal modulation technique represents data using different amplitude levels?",
+          "options": [
+            "Frequency modulation",
+            "Phase modulation",
+            "Amplitude modulation",
+            "Pulse modulation"
+          ],
+          "answer": "Amplitude modulation",
+          "explanation": "Amplitude modulation (AM) represents binary data using different amplitude levels, where one level represents a binary 1 and another level represents a binary 0."
         },
         {
-          "question": "What is the output of `System.out.println(Math.pow(2, 3));`?",
-          "options": ["6", "8", "9", "4"],
-          "answer": "8"
+          "question": "What is Manchester encoding used for?",
+          "options": [
+            "Ethernet networks at low speeds",
+            "Long-distance wireless communication",
+            "High-speed fiber-optic transmission",
+            "Infrared data transmission"
+          ],
+          "answer": "Ethernet networks at low speeds",
+          "explanation": "Manchester encoding is used for data transmission in Ethernet networks at low speeds (e.g., 10 Mbps)."
         },
         {
-          "question": "Which of these is a correct way to handle multiple exceptions in Java?",
-          "options": ["catch (Exception1, Exception2)", "catch (Exception1 | Exception2)", "catch (Exception1 & Exception2)", "catch {Exception1, Exception2}"],
-          "answer": "catch (Exception1 | Exception2)"
+          "question": "Which wireless frequency band is used by newer Wi-Fi standards such as 802.11ac?",
+          "options": [
+            "2.4 GHz",
+            "5 GHz",
+            "1.8 GHz",
+            "6 GHz"
+          ],
+          "answer": "5 GHz",
+          "explanation": "Newer Wi-Fi standards like 802.11ac and 802.11n operate on the 5 GHz frequency band, providing faster data rates and less interference."
         },
         {
-          "question": "Which keyword is used to stop the execution of a method in Java?",
-          "options": ["return", "break", "continue", "stop"],
-          "answer": "return"
+          "question": "Which of the following media is most susceptible to electromagnetic interference (EMI)?",
+          "options": [
+            "Fiber-optic cables",
+            "UTP cables",
+            "Coaxial cables",
+            "Wireless signals"
+          ],
+          "answer": "UTP cables",
+          "explanation": "Unshielded Twisted Pair (UTP) cables are more susceptible to electromagnetic interference (EMI) than fiber-optic or coaxial cables."
         },
         {
-          "question": "Which keyword is used to inherit a class in Java?",
-          "options": ["implements", "inherits", "extends", "follows"],
-          "answer": "extends"
+          "question": "Which transmission medium has the highest resistance to interference and noise?",
+          "options": [
+            "Copper wire",
+            "Coaxial cable",
+            "UTP cable",
+            "Fiber-optic cable"
+          ],
+          "answer": "Fiber-optic cable",
+          "explanation": "Fiber-optic cables are immune to electromagnetic interference and noise, making them highly reliable for data transmission over long distances."
         },
         {
-          "question": "Which of the following is true about an abstract class in Java?",
-          "options": ["It cannot have a constructor", "It can have both abstract and non-abstract methods", "It can be instantiated", "It must have at least one abstract method"],
-          "answer": "It can have both abstract and non-abstract methods"
+          "question": "What does NEXT (Near-End Crosstalk) refer to in twisted-pair cabling?",
+          "options": [
+            "Signal reflection at the receiver",
+            "Signal attenuation due to long distances",
+            "Signal coupling between adjacent pairs of wires",
+            "Interference from external sources"
+          ],
+          "answer": "Signal coupling between adjacent pairs of wires",
+          "explanation": "NEXT refers to the signal interference caused by electromagnetic coupling between adjacent pairs of wires within a twisted-pair cable."
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(Math.min(5, 10));`?",
-          "options": ["5", "10", "0", "15"],
-          "answer": "5"
+          "question": "Which of the following connectors is typically used with UTP cables?",
+          "options": [
+            "RJ-45",
+            "BNC",
+            "SC",
+            "ST"
+          ],
+          "answer": "RJ-45",
+          "explanation": "RJ-45 connectors are commonly used to terminate UTP cables in networking environments, especially for Ethernet connections."
         },
         {
-          "question": "Which method is used to convert a string to an array of characters?",
-          "options": ["toCharArray()", "charArray()", "getChars()", "split()"],
-          "answer": "toCharArray()"
+          "question": "Which type of fiber optic cable supports longer distances but uses more expensive laser technology?",
+          "options": [
+            "Multimode fiber",
+            "Single-mode fiber",
+            "UTP cable",
+            "Coaxial cable"
+          ],
+          "answer": "Single-mode fiber",
+          "explanation": "Single-mode fiber uses expensive laser technology but can support much longer distances than multimode fiber."
         },
         {
-          "question": "Which of the following is used to create a thread in Java?",
-          "options": ["Runnable interface", "Thread class", "Both A and B", "None of the above"],
-          "answer": "Both A and B"
+          "question": "What is the main advantage of fiber-optic cabling over copper cabling?",
+          "options": [
+            "Lower cost",
+            "Greater bandwidth and longer distance support",
+            "Easier installation",
+            "Lower signal attenuation"
+          ],
+          "answer": "Greater bandwidth and longer distance support",
+          "explanation": "Fiber-optic cabling supports higher bandwidth and can transmit data over longer distances with lower signal loss compared to copper cables."
         },
         {
-          "question": "Which keyword is used to throw an exception in Java?",
-          "options": ["throw", "throws", "thrown", "catch"],
-          "answer": "throw"
+          "question": "Which physical medium is commonly used to connect wireless antennas to devices?",
+          "options": [
+            "UTP cable",
+            "Coaxial cable",
+            "Fiber-optic cable",
+            "Twisted-pair cable"
+          ],
+          "answer": "Coaxial cable",
+          "explanation": "Coaxial cables are commonly used in wireless installations to connect antennas to devices, providing reliable signal transmission."
         },
         {
-          "question": "Which method is used to check if two strings are equal, ignoring case considerations?",
-          "options": ["equalsIgnoreCase()", "compareToIgnoreCase()", "equals()", "compareTo()"],
-          "answer": "equalsIgnoreCase()"
+          "question": "Which of the following is a characteristic of single-mode fiber?",
+          "options": [
+            "Used for short distances",
+            "Supports multiple light modes",
+            "Uses less expensive LEDs",
+            "Has a very small core and supports long-distance communication"
+          ],
+          "answer": "Has a very small core and supports long-distance communication",
+          "explanation": "Single-mode fiber has a small core and uses lasers for long-distance communication, making it ideal for high-speed, long-range applications."
         },
         {
-          "question": "What is the return type of the 'hashCode()' method in Java?",
-          "options": ["int", "long", "short", "byte"],
-          "answer": "int"
+          "question": "What does the term 'attenuation' refer to in signal transmission?",
+          "options": [
+            "Increasing signal strength",
+            "Decreasing signal strength over distance",
+            "Signal interference",
+            "Signal modulation"
+          ],
+          "answer": "Decreasing signal strength over distance",
+          "explanation": "Attenuation refers to the reduction in signal strength as it travels further from the source over a transmission medium."
         },
         {
-          "question": "Which of these is a method of the Integer class?",
-          "options": ["parseInt()", "toInteger()", "intValue()", "All of the above"],
-          "answer": "All of the above"
+          "question": "Which transmission medium is completely immune to electromagnetic interference (EMI)?",
+          "options": [
+            "Twisted pair cable",
+            "Fiber-optic cable",
+            "Coaxial cable",
+            "Wireless media"
+          ],
+          "answer": "Fiber-optic cable",
+          "explanation": "Fiber-optic cables use light to transmit data and are completely immune to electromagnetic interference (EMI) and radio frequency interference (RFI)."
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 4",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Link Layer (LAN) - Paper 4",
+      "icon": "./assets/images/icon-lan.svg",
       "questions": [
         {
-          "question": "What is the purpose of the `this` keyword in Java?",
-          "options": ["To refer to the current object", "To refer to the superclass", "To refer to a static method", "To create a new object"],
-          "answer": "To refer to the current object"
+          "question": "What is the main purpose of the Ethernet technology in a Local Area Network (LAN)?",
+          "options": [
+            "Provide wireless connectivity",
+            "Transmit data over long distances",
+            "Enable wired data transmission within a LAN",
+            "Handle network layer routing"
+          ],
+          "answer": "Enable wired data transmission within a LAN",
+          "explanation": "Ethernet is a dominant LAN technology that allows wired data transmission within a local area network."
         },
         {
-          "question": "Which of the following is not a Java loop construct?",
-          "options": ["for", "while", "foreach", "do-while"],
-          "answer": "foreach"
+          "question": "Which protocol is responsible for managing access to the network medium in Ethernet?",
+          "options": [
+            "TCP",
+            "CSMA/CD",
+            "CSMA/CA",
+            "IP"
+          ],
+          "answer": "CSMA/CD",
+          "explanation": "Ethernet uses CSMA/CD (Carrier Sense Multiple Access with Collision Detection) to manage access to the shared network medium and prevent data collisions."
         },
         {
-          "question": "Which exception is thrown when a file is not found in Java?",
-          "options": ["FileNotFoundException", "IOException", "RuntimeException", "FileException"],
-          "answer": "FileNotFoundException"
+          "question": "What is a MAC address used for in a network?",
+          "options": [
+            "To uniquely identify a device on a network",
+            "To store the IP address of a device",
+            "To encrypt data during transmission",
+            "To provide wireless access to a device"
+          ],
+          "answer": "To uniquely identify a device on a network",
+          "explanation": "A MAC address is a 48-bit physical address that uniquely identifies a device on the network."
         },
         {
-          "question": "Which of these methods is used to calculate the absolute value of a number in Java?",
-          "options": ["Math.abs()", "Math.absolute()", "Math.ceil()", "Math.floor()"],
-          "answer": "Math.abs()"
+          "question": "What happens when a collision is detected in an Ethernet network using CSMA/CD?",
+          "options": [
+            "The packet is dropped and retransmission is attempted after a random backoff time",
+            "The packet is forwarded to the destination",
+            "The packet is encrypted",
+            "The packet is rerouted"
+          ],
+          "answer": "The packet is dropped and retransmission is attempted after a random backoff time",
+          "explanation": "When a collision is detected, CSMA/CD aborts the transmission and reschedules it after a random backoff period to minimize the chance of future collisions."
         },
         {
-          "question": "Which of the following is a feature of the Java programming language?",
-          "options": ["Manual memory management", "Automatic garbage collection", "Multiple inheritance", "Platform-dependent"],
-          "answer": "Automatic garbage collection"
+          "question": "Which of the following devices operates at the Link Layer and is responsible for forwarding Ethernet frames?",
+          "options": [
+            "Router",
+            "Switch",
+            "Hub",
+            "Modem"
+          ],
+          "answer": "Switch",
+          "explanation": "A switch is a Link Layer device that forwards Ethernet frames based on the MAC addresses of the devices connected to it."
         },
         {
-          "question": "Which of the following is not a valid access modifier in Java?",
-          "options": ["public", "private", "protected", "friendly"],
-          "answer": "friendly"
+          "question": "Which component in a network enables multiple devices to transmit data simultaneously without causing collisions?",
+          "options": [
+            "Router",
+            "Ethernet switch",
+            "Hub",
+            "Modem"
+          ],
+          "answer": "Ethernet switch",
+          "explanation": "An Ethernet switch manages multiple simultaneous transmissions by creating separate collision domains for each connection."
         },
         {
-          "question": "What will be the output of the following code? `System.out.println(\"Java\".substring(1, 3));`",
-          "options": ["Ja", "Jav", "av", "ava"],
-          "answer": "av"
+          "question": "What is the primary function of VLANs (Virtual Local Area Networks)?",
+          "options": [
+            "To increase the speed of Ethernet networks",
+            "To isolate network traffic within a single broadcast domain",
+            "To improve wireless communication",
+            "To connect different physical networks"
+          ],
+          "answer": "To isolate network traffic within a single broadcast domain",
+          "explanation": "VLANs are used to create virtual broadcast domains within a network, isolating traffic between different groups of devices for security and efficiency."
         },
         {
-          "question": "Which of the following is used to read input from the user in Java?",
-          "options": ["Scanner class", "InputStream class", "FileReader class", "Buffer class"],
-          "answer": "Scanner class"
+          "question": "Which protocol standard defines wireless LANs (WLANs)?",
+          "options": [
+            "802.3",
+            "802.11",
+            "802.15",
+            "802.16"
+          ],
+          "answer": "802.11",
+          "explanation": "The IEEE 802.11 standard defines wireless LANs, commonly known as Wi-Fi."
         },
         {
-          "question": "Which of these is not a keyword in Java?",
-          "options": ["interface", "goto", "constant", "synchronized"],
-          "answer": "constant"
+          "question": "What is the role of the preamble in an Ethernet frame?",
+          "options": [
+            "To identify the destination address",
+            "To detect errors in transmission",
+            "To synchronize the sender and receiver clocks",
+            "To determine the frame type"
+          ],
+          "answer": "To synchronize the sender and receiver clocks",
+          "explanation": "The preamble is a sequence of bits used to synchronize the sender and receiver clocks before the transmission of data begins."
         },
         {
-          "question": "Which of these methods is used to find the length of a string in Java?",
-          "options": ["length()", "size()", "getLength()", "count()"],
-          "answer": "length()"
+          "question": "What type of addressing is used at the Link Layer?",
+          "options": [
+            "IP addressing",
+            "Port addressing",
+            "MAC addressing",
+            "Host addressing"
+          ],
+          "answer": "MAC addressing",
+          "explanation": "The Link Layer uses MAC (Media Access Control) addressing to uniquely identify devices on a network."
         },
         {
-          "question": "What is the output of the following code: `System.out.println(10 > 5 ? \"True\" : \"False\");`",
-          "options": ["True", "False", "Error", "0"],
-          "answer": "True"
+          "question": "Which of the following is true about an Ethernet switch?",
+          "options": [
+            "It operates at the network layer",
+            "It floods all incoming traffic to every port",
+            "It forwards frames based on MAC addresses",
+            "It is responsible for routing packets across networks"
+          ],
+          "answer": "It forwards frames based on MAC addresses",
+          "explanation": "An Ethernet switch forwards frames to the correct destination by using the MAC addresses of the devices connected to it."
         },
         {
-          "question": "Which keyword is used to define a class that cannot be extended?",
-          "options": ["final", "static", "abstract", "constant"],
-          "answer": "final"
+          "question": "What is the primary reason for using VLANs in a network?",
+          "options": [
+            "To create separate broadcast domains",
+            "To increase network speed",
+            "To enhance encryption",
+            "To reduce the cost of hardware"
+          ],
+          "answer": "To create separate broadcast domains",
+          "explanation": "VLANs are used to segment a network into multiple broadcast domains, which helps isolate traffic and improve security."
         },
         {
-          "question": "Which of these is not a valid Java data type?",
-          "options": ["char", "int", "double", "number"],
-          "answer": "number"
+          "question": "Which term refers to the part of the network where multiple devices share the same medium and can collide with each other's transmissions?",
+          "options": [
+            "Broadcast domain",
+            "Collision domain",
+            "VLAN",
+            "Access point"
+          ],
+          "answer": "Collision domain",
+          "explanation": "A collision domain is a part of the network where multiple devices share the same medium, leading to potential data collisions."
         },
         {
-          "question": "What is the output of the following code? `System.out.println(3 * 2 + 1);`",
-          "options": ["5", "6", "7", "9"],
-          "answer": "7"
+          "question": "What is the function of CSMA/CA in a wireless LAN?",
+          "options": [
+            "To detect collisions",
+            "To avoid collisions",
+            "To encrypt wireless signals",
+            "To identify MAC addresses"
+          ],
+          "answer": "To avoid collisions",
+          "explanation": "CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) is used in wireless networks to avoid collisions by reserving the channel before transmission."
         },
         {
-          "question": "Which of these is not a method of the java.util.ArrayList class?",
-          "options": ["add()", "remove()", "get()", "push()"],
-          "answer": "push()"
+          "question": "What does a wireless access point (AP) do in a WLAN?",
+          "options": [
+            "Connects wireless devices to the wired network",
+            "Assigns IP addresses to wireless devices",
+            "Encrypts data on the wireless network",
+            "Routes traffic between VLANs"
+          ],
+          "answer": "Connects wireless devices to the wired network",
+          "explanation": "A wireless access point (AP) connects wireless devices to a wired network, allowing communication between wireless clients and the network."
         },
         {
-          "question": "Which of these keywords is used to create an interface in Java?",
-          "options": ["interface", "class", "implements", "extends"],
-          "answer": "interface"
+          "question": "Which type of Ethernet frame format includes a VLAN tag?",
+          "options": [
+            "Standard Ethernet frame",
+            "Jumbo frame",
+            "802.1Q frame",
+            "Priority frame"
+          ],
+          "answer": "802.1Q frame",
+          "explanation": "The 802.1Q frame format includes a VLAN tag to support VLAN functionality within Ethernet networks."
         },
         {
-          "question": "What is the result of `System.out.println(10 < 20 && 5 > 3);`?",
-          "options": ["true", "false", "null", "Error"],
-          "answer": "true"
+          "question": "Which device operates at the link layer and can filter and forward Ethernet frames based on MAC addresses?",
+          "options": [
+            "Router",
+            "Firewall",
+            "Switch",
+            "Modem"
+          ],
+          "answer": "Switch",
+          "explanation": "A switch operates at the Link Layer and filters and forwards frames based on the MAC addresses of the devices connected to it."
         },
         {
-          "question": "Which of the following methods is used to find the square root of a number in Java?",
-          "options": ["Math.sqrt()", "Math.square()", "Math.root()", "Math.pow()"],
-          "answer": "Math.sqrt()"
+          "question": "What is the benefit of using full-duplex mode in Ethernet communication?",
+          "options": [
+            "It reduces network traffic",
+            "It allows simultaneous data transmission and reception",
+            "It minimizes power consumption",
+            "It reduces collision rates in wireless networks"
+          ],
+          "answer": "It allows simultaneous data transmission and reception",
+          "explanation": "Full-duplex mode allows devices to transmit and receive data simultaneously, improving the efficiency of Ethernet communication."
         },
         {
-          "question": "Which of these is a valid way to start a comment in Java?",
-          "options": ["//", "<!--", "/*", "#"],
-          "answer": "//"
+          "question": "What is the purpose of a VLAN trunk port?",
+          "options": [
+            "To carry frames between different VLANs",
+            "To prevent collisions in Ethernet",
+            "To create multiple VLANs on a single switch",
+            "To connect multiple switches carrying VLAN traffic"
+          ],
+          "answer": "To connect multiple switches carrying VLAN traffic",
+          "explanation": "A VLAN trunk port carries VLAN traffic between multiple switches, allowing VLANs to span across different switches."
         },
         {
-          "question": "Which of these is a valid Java array declaration?",
-          "options": ["int[] arr;", "int arr[];", "int arr = [];", "Both A and B"],
-          "answer": "Both A and B"
+          "question": "Which of the following is used to avoid collisions in a wireless network?",
+          "options": [
+            "CSMA/CD",
+            "CSMA/CA",
+            "802.1Q",
+            "CSMA/RTS"
+          ],
+          "answer": "CSMA/CA",
+          "explanation": "Wireless networks use CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) to avoid collisions by reserving the channel before transmission."
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 5",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Network Layer - Paper 5",
+      "icon": "./assets/images/icon-network-layer.svg",
       "questions": [
         {
-          "question": "Which of these is a valid way to concatenate strings in Java?",
-          "options": ["String1 + String2", "String1.concat(String2)", "StringBuilder.append()", "All of the above"],
-          "answer": "All of the above"
+          "question": "What is the main function of the network layer in the OSI model?",
+          "options": [
+            "Error detection",
+            "Routing and forwarding of packets",
+            "Session management",
+            "End-to-end communication"
+          ],
+          "answer": "Routing and forwarding of packets",
+          "explanation": "The network layer is responsible for routing packets from the source to the destination and forwarding them through intermediate routers."
         },
         {
-          "question": "What is the output of the following code: `System.out.println(5 * 2 / 2);`",
-          "options": ["2.5", "5", "10", "0"],
-          "answer": "5"
+          "question": "What does the Time to Live (TTL) field in an IP datagram represent?",
+          "options": [
+            "The number of seconds a packet can exist",
+            "The number of hops a packet can take",
+            "The time it takes for a packet to be delivered",
+            "The number of retries allowed"
+          ],
+          "answer": "The number of hops a packet can take",
+          "explanation": "TTL limits the number of hops a packet can take before being discarded to prevent it from looping indefinitely in the network."
         },
         {
-          "question": "Which of the following is not a feature of Java?",
-          "options": ["Object-oriented", "Platform-independent", "Supports pointers", "Secure"],
-          "answer": "Supports pointers"
+          "question": "Which protocol is used for error reporting and signaling in IP networks?",
+          "options": [
+            "TCP",
+            "UDP",
+            "ICMP",
+            "ARP"
+          ],
+          "answer": "ICMP",
+          "explanation": "ICMP (Internet Control Message Protocol) is used to send error messages and operational information about network conditions."
         },
         {
-          "question": "Which of these is the correct way to create an object of the class 'Car'?",
-          "options": ["Car myCar = new Car();", "Car myCar;", "myCar = new Car();", "Car() myCar;"],
-          "answer": "Car myCar = new Car();"
+          "question": "What is a subnet?",
+          "options": [
+            "A smaller network within a larger network",
+            "A group of connected routers",
+            "A host that provides services",
+            "A wireless network access point"
+          ],
+          "answer": "A smaller network within a larger network",
+          "explanation": "A subnet is a segment of a network that shares a common network ID and can communicate without passing through a router."
         },
         {
-          "question": "Which of the following is not a method of the String class in Java?",
-          "options": ["length()", "compareTo()", "toUpperCase()", "toChar()"],
-          "answer": "toChar()"
+          "question": "Which of the following IP addresses belongs to a Class A network?",
+          "options": [
+            "192.168.1.1",
+            "10.0.0.1",
+            "172.16.0.1",
+            "224.0.0.1"
+          ],
+          "answer": "10.0.0.1",
+          "explanation": "Class A networks have IP addresses that range from 1.0.0.0 to 126.0.0.0, and 10.0.0.1 falls within this range."
         },
         {
-          "question": "Which keyword is used to define a block of code that will run if no exceptions are thrown?",
-          "options": ["catch", "try", "finally", "default"],
-          "answer": "finally"
+          "question": "What is the maximum number of hosts that can be supported in a Class C network?",
+          "options": [
+            "256",
+            "254",
+            "512",
+            "128"
+          ],
+          "answer": "254",
+          "explanation": "In a Class C network, 8 bits are reserved for the host portion, allowing 2^8 - 2 = 254 usable host addresses."
         },
         {
-          "question": "What is the output of the following code? `System.out.println(\"Hello World\".toUpperCase());`",
-          "options": ["HELLO WORLD", "Hello World", "hello world", "Helloworld"],
-          "answer": "HELLO WORLD"
+          "question": "What is the purpose of Network Address Translation (NAT)?",
+          "options": [
+            "To convert private IP addresses into public IP addresses",
+            "To encrypt data for secure transmission",
+            "To route data between different subnets",
+            "To assign IP addresses dynamically"
+          ],
+          "answer": "To convert private IP addresses into public IP addresses",
+          "explanation": "NAT is used to map private IP addresses to a public IP address, enabling devices in a local network to access external networks such as the Internet."
         },
         {
-          "question": "Which of these methods is used to determine if a string starts with a certain prefix?",
-          "options": ["startsWith()", "beginWith()", "hasPrefix()", "starts()"],
-          "answer": "startsWith()"
+          "question": "What is a public IP address?",
+          "options": [
+            "An address used for private networks",
+            "An address that is visible and routable on the Internet",
+            "An address reserved for local communication",
+            "An address used for NAT translation"
+          ],
+          "answer": "An address that is visible and routable on the Internet",
+          "explanation": "Public IP addresses are globally unique and used for devices that need to communicate over the Internet."
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(10 % 4);`",
-          "options": ["0", "2", "4", "3"],
-          "answer": "2"
+          "question": "Which of the following is a reserved private IP address range?",
+          "options": [
+            "8.8.8.8",
+            "192.168.0.0/16",
+            "172.15.0.0/16",
+            "223.1.1.1"
+          ],
+          "answer": "192.168.0.0/16",
+          "explanation": "The IP range 192.168.0.0/16 is reserved for private network use and cannot be routed on the public Internet."
         },
         {
-          "question": "Which of these keywords is used to define a method that must be implemented by subclasses?",
-          "options": ["abstract", "final", "static", "default"],
-          "answer": "abstract"
+          "question": "What does the fragmentation of an IP datagram involve?",
+          "options": [
+            "Combining smaller packets into a larger one",
+            "Splitting a large datagram into smaller fragments",
+            "Dropping packets that exceed the MTU",
+            "Reordering packets before transmission"
+          ],
+          "answer": "Splitting a large datagram into smaller fragments",
+          "explanation": "Fragmentation occurs when a large IP datagram exceeds the MTU (Maximum Transmission Unit) of the underlying network and is split into smaller fragments for transmission."
         },
         {
-          "question": "Which of these is not a Java exception handling keyword?",
-          "options": ["try", "catch", "throw", "handle"],
-          "answer": "handle"
+          "question": "What is the function of the subnet mask?",
+          "options": [
+            "To determine the class of an IP address",
+            "To identify the network and host portions of an IP address",
+            "To encrypt the IP address",
+            "To assign IP addresses dynamically"
+          ],
+          "answer": "To identify the network and host portions of an IP address",
+          "explanation": "The subnet mask helps determine which part of an IP address is the network ID and which part is the host ID."
         },
         {
-          "question": "Which method is used to stop the execution of a thread?",
-          "options": ["stop()", "terminate()", "exit()", "end()"],
-          "answer": "stop()"
+          "question": "Which field in an IP datagram indicates the total length of the datagram?",
+          "options": [
+            "Version",
+            "Total Length",
+            "TTL",
+            "Header Checksum"
+          ],
+          "answer": "Total Length",
+          "explanation": "The Total Length field in the IP header specifies the total length of the datagram, including both the header and data."
         },
         {
-          "question": "Which of these is a method of the Math class in Java?",
-          "options": ["max()", "min()", "pow()", "All of the above"],
-          "answer": "All of the above"
+          "question": "Which of the following IP addresses is used for loopback testing?",
+          "options": [
+            "192.168.1.1",
+            "127.0.0.1",
+            "10.0.0.1",
+            "0.0.0.0"
+          ],
+          "answer": "127.0.0.1",
+          "explanation": "The IP address 127.0.0.1 is reserved for loopback testing, allowing a host to communicate with itself."
         },
         {
-          "question": "Which of the following is true about Java?",
-          "options": ["It is a compiled language", "It is an interpreted language", "It is both compiled and interpreted", "None of the above"],
-          "answer": "It is both compiled and interpreted"
+          "question": "What is Classless Inter-Domain Routing (CIDR) used for?",
+          "options": [
+            "Assigning IP addresses in fixed classes",
+            "Dividing IP address space into subnets",
+            "Routing multicast traffic",
+            "Reassigning MAC addresses"
+          ],
+          "answer": "Dividing IP address space into subnets",
+          "explanation": "CIDR allows the flexible allocation of IP addresses by removing the fixed class-based allocation and using variable-length subnet masks."
         },
         {
-          "question": "Which of the following is not a type of inheritance in Java?",
-          "options": ["Single", "Multilevel", "Hybrid", "Multiple"],
-          "answer": "Multiple"
+          "question": "What is the maximum size of an IP datagram?",
+          "options": [
+            "64 KB",
+            "1500 bytes",
+            "255 bytes",
+            "16 KB"
+          ],
+          "answer": "64 KB",
+          "explanation": "The maximum size of an IP datagram is 65,535 bytes (64 KB), as determined by the 16-bit Total Length field in the IP header."
         },
         {
-          "question": "Which of the following methods is used to write to a file in Java?",
-          "options": ["FileWriter.write()", "File.read()", "FileStream()", "FileOpen.write()"],
-          "answer": "FileWriter.write()"
+          "question": "What is the purpose of the identification field in an IP datagram?",
+          "options": [
+            "To identify the type of service",
+            "To uniquely identify fragments of a datagram",
+            "To determine the destination network",
+            "To check for errors in transmission"
+          ],
+          "answer": "To uniquely identify fragments of a datagram",
+          "explanation": "The identification field is used to uniquely identify fragments that belong to the same datagram, so they can be reassembled correctly at the destination."
         },
         {
-          "question": "What is the output of the following code: `System.out.println(10 > 5 || 5 > 10);`",
-          "options": ["true", "false", "null", "0"],
-          "answer": "true"
+          "question": "What is the primary reason for subnetting a network?",
+          "options": [
+            "To increase IP address usage efficiency",
+            "To reduce network security",
+            "To disable routing",
+            "To simplify network cabling"
+          ],
+          "answer": "To increase IP address usage efficiency",
+          "explanation": "Subnetting allows for more efficient use of IP address space by dividing a larger network into smaller, more manageable subnetworks."
         },
         {
-          "question": "Which keyword is used to refer to the superclass of a class?",
-          "options": ["parent", "super", "base", "extends"],
-          "answer": "super"
+          "question": "Which part of an IP address identifies the specific host on a network?",
+          "options": [
+            "Network ID",
+            "Host ID",
+            "MAC address",
+            "Subnet mask"
+          ],
+          "answer": "Host ID",
+          "explanation": "The Host ID is the portion of the IP address that uniquely identifies a device on a network, while the Network ID identifies the network."
         },
         {
-          "question": "Which of these is not a primitive data type in Java?",
-          "options": ["int", "boolean", "float", "String"],
-          "answer": "String"
+          "question": "What is the function of the Don't Fragment (DF) bit in the IP header?",
+          "options": [
+            "Prevents fragmentation of the datagram",
+            "Allows datagram reassembly",
+            "Resets the TTL value",
+            "Enables multicast routing"
+          ],
+          "answer": "Prevents fragmentation of the datagram",
+          "explanation": "The DF bit in the IP header instructs routers not to fragment the datagram, even if it exceeds the MTU of the underlying network."
         },
         {
-          "question": "Which method is used to find the last occurrence of a character in a string?",
-          "options": ["lastIndexOf()", "indexOf()", "findLast()", "charAt()"],
-          "answer": "lastIndexOf()"
+          "question": "What is the purpose of the TTL field in the IP header?",
+          "options": [
+            "To prevent datagrams from looping indefinitely",
+            "To check for transmission errors",
+            "To measure the time taken to transmit a packet",
+            "To specify the length of the IP header"
+          ],
+          "answer": "To prevent datagrams from looping indefinitely",
+          "explanation": "TTL is a mechanism to limit the lifetime of a packet in the network by reducing its value at each hop, preventing it from looping indefinitely."
         }
       ]
     },
     {
-      "title": "Java Programming Mid Guess Paper",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Data Communication and Networking - Guess Paper 1",
+      "icon": "./assets/images/icon-guess-paper1.svg",
       "questions": [
         {
-          "question": "Which keyword is used to define a method that cannot be overridden in Java?",
-          "options": ["final", "static", "private", "protected"],
-          "answer": "final"
+          "question": "What is the purpose of a protocol in data communication?",
+          "options": [
+            "To encrypt data",
+            "To define rules for communication",
+            "To compress data",
+            "To increase transmission speed"
+          ],
+          "answer": "To define rules for communication"
         },
         {
-          "question": "What is the output of the following code? `System.out.println(10 / 3);`",
-          "options": ["3.33", "3", "4", "0"],
-          "answer": "3"
+          "question": "Which topology connects all devices to a central hub?",
+          "options": [
+            "Bus",
+            "Ring",
+            "Star",
+            "Mesh"
+          ],
+          "answer": "Star"
         },
         {
-          "question": "Which of the following is true about a static method?",
-          "options": ["It belongs to the class, not instances", "It can access instance variables directly", "It can be overridden", "It is always public"],
-          "answer": "It belongs to the class, not instances"
+          "question": "What is the role of the network layer in the OSI model?",
+          "options": [
+            "To handle application protocols",
+            "To manage routing and forwarding",
+            "To establish and terminate sessions",
+            "To ensure reliable data transfer"
+          ],
+          "answer": "To manage routing and forwarding"
         },
         {
-          "question": "What is the output of `System.out.println(Math.ceil(4.2));`?",
-          "options": ["4.0", "4", "5.0", "5"],
-          "answer": "5.0"
+          "question": "What does CSMA/CD stand for?",
+          "options": [
+            "Carrier Sense Multiple Access with Collision Detection",
+            "Code Sense Multiple Access with Controlled Division",
+            "Carrier Sense Mode Access with Controlled Division",
+            "Collision Sense Multiple Access with Delay"
+          ],
+          "answer": "Carrier Sense Multiple Access with Collision Detection"
         },
         {
-          "question": "Which of these is a valid declaration of a constructor in Java?",
-          "options": ["void Constructor()", "Constructor()", "new Constructor()", "Constructor.new()"],
-          "answer": "Constructor()"
+          "question": "Which of the following addresses is used for broadcast in IPv4?",
+          "options": [
+            "255.255.255.255",
+            "192.168.1.1",
+            "10.0.0.1",
+            "172.16.0.0"
+          ],
+          "answer": "255.255.255.255"
         },
         {
-          "question": "Which of these is the correct way to create a comment in Java?",
-          "options": ["# comment", "// comment", "<!-- comment -->", "/* comment"],
-          "answer": "// comment"
+          "question": "Which of the following is a layer 2 (Link Layer) protocol?",
+          "options": [
+            "IP",
+            "TCP",
+            "Ethernet",
+            "HTTP"
+          ],
+          "answer": "Ethernet"
         },
         {
-          "question": "Which of the following is true about the `break` statement?",
-          "options": ["It exits the current method", "It exits the current loop", "It stops the entire program", "It skips the current iteration"],
-          "answer": "It exits the current loop"
+          "question": "What is the main function of the transport layer in the OSI model?",
+          "options": [
+            "Data encryption",
+            "Session management",
+            "End-to-end communication",
+            "Physical addressing"
+          ],
+          "answer": "End-to-end communication"
         },
         {
-          "question": "Which of these is a valid identifier in Java?",
-          "options": ["1stVariable", "first_Variable", "first-Variable", "first Variable"],
-          "answer": "first_Variable"
+          "question": "Which protocol is responsible for routing IP datagrams?",
+          "options": [
+            "TCP",
+            "ICMP",
+            "IP",
+            "ARP"
+          ],
+          "answer": "IP"
         },
         {
-          "question": "What is the output of the following code: `System.out.println(\"Hello\".charAt(1));`",
-          "options": ["H", "e", "l", "o"],
-          "answer": "e"
+          "question": "What is the main characteristic of a full-duplex communication system?",
+          "options": [
+            "Data flows in one direction",
+            "Data can flow in both directions simultaneously",
+            "Data is broadcast to all devices",
+            "Data is transmitted and received in time slots"
+          ],
+          "answer": "Data can flow in both directions simultaneously"
         },
         {
-          "question": "Which of the following is used to declare a constant in Java?",
-          "options": ["const", "constant", "final", "static"],
-          "answer": "final"
+          "question": "Which field in an IP datagram determines how many routers the packet can pass through?",
+          "options": [
+            "TTL",
+            "Protocol",
+            "Header Length",
+            "Type of Service"
+          ],
+          "answer": "TTL"
+        }
+      ]
+    },
+    {
+      "title": "Data Communication and Networking - Guess Paper 2",
+      "icon": "./assets/images/icon-guess-paper2.svg",
+      "questions": [
+        {
+          "question": "What does the term 'subnetting' refer to in networking?",
+          "options": [
+            "Dividing a network into smaller networks",
+            "Connecting two different networks",
+            "Encrypting data packets",
+            "Assigning IP addresses dynamically"
+          ],
+          "answer": "Dividing a network into smaller networks"
         },
         {
-          "question": "Which of the following is not an access specifier in Java?",
-          "options": ["public", "private", "protected", "package"],
-          "answer": "package"
+          "question": "What is the function of Network Address Translation (NAT)?",
+          "options": [
+            "To convert private IP addresses to public addresses",
+            "To assign MAC addresses",
+            "To encrypt communication",
+            "To resolve domain names"
+          ],
+          "answer": "To convert private IP addresses to public addresses"
         },
         {
-          "question": "What is the output of the following code: `System.out.println(\"Hello\".substring(0, 2));`",
-          "options": ["He", "Hel", "Ho", "H"],
-          "answer": "He"
+          "question": "Which of the following protocols operates at the transport layer of the OSI model?",
+          "options": [
+            "TCP",
+            "IP",
+            "Ethernet",
+            "HTTP"
+          ],
+          "answer": "TCP"
         },
         {
-          "question": "Which of the following is not a valid way to start a comment in Java?",
-          "options": ["//", "/*", "#", "*/"],
-          "answer": "#"
+          "question": "What is the purpose of VLANs in networking?",
+          "options": [
+            "To provide encrypted communication",
+            "To isolate network traffic into broadcast domains",
+            "To create a backup network",
+            "To reduce latency in wireless networks"
+          ],
+          "answer": "To isolate network traffic into broadcast domains"
         },
         {
-          "question": "Which of these is a valid way to create a new string in Java?",
-          "options": ["String str = new String(\"Hello\");", "String str = String(\"Hello\");", "String str = 'Hello';", "String str = \"Hello\"();"],
-          "answer": "String str = new String(\"Hello\");"
+          "question": "Which of the following is a physical transmission medium?",
+          "options": [
+            "Wi-Fi",
+            "Ethernet cable",
+            "IP",
+            "ARP"
+          ],
+          "answer": "Ethernet cable"
         },
         {
-          "question": "Which keyword is used to handle exceptions that are not caught?",
-          "options": ["try", "catch", "finally", "throw"],
-          "answer": "finally"
+          "question": "What is the maximum size of an IPv4 datagram?",
+          "options": [
+            "64 KB",
+            "1500 bytes",
+            "255 bytes",
+            "32 KB"
+          ],
+          "answer": "64 KB"
         },
         {
-          "question": "Which of these is not a loop construct in Java?",
-          "options": ["while", "for", "foreach", "do-while"],
-          "answer": "foreach"
+          "question": "Which term describes the process of breaking a large IP datagram into smaller fragments?",
+          "options": [
+            "Encapsulation",
+            "Fragmentation",
+            "Multiplexing",
+            "Modulation"
+          ],
+          "answer": "Fragmentation"
         },
         {
-          "question": "Which of these methods is used to convert a string to lowercase?",
-          "options": ["toLower()", "lowerCase()", "toLowerCase()", "lower()"],
-          "answer": "toLowerCase()"
+          "question": "Which of the following IP addresses is reserved for private networks?",
+          "options": [
+            "8.8.8.8",
+            "192.168.1.1",
+            "126.0.0.1",
+            "240.0.0.0"
+          ],
+          "answer": "192.168.1.1"
         },
         {
-          "question": "What is the output of `System.out.println(4 + 5 * 2);`?",
-          "options": ["18", "14", "13", "9"],
-          "answer": "14"
+          "question": "What is the purpose of the preamble in an Ethernet frame?",
+          "options": [
+            "Error detection",
+            "Clock synchronization",
+            "Address resolution",
+            "Encryption"
+          ],
+          "answer": "Clock synchronization"
         },
         {
-          "question": "Which of the following is a valid declaration of a char array?",
-          "options": ["char[] arr;", "char arr[];", "char arr = [];", "Both A and B"],
-          "answer": "Both A and B"
+          "question": "What does ICMP stand for?",
+          "options": [
+            "Internet Communication Message Protocol",
+            "Internet Control Message Protocol",
+            "Internal Communication Management Protocol",
+            "International Control Message Protocol"
+          ],
+          "answer": "Internet Control Message Protocol"
+        }
+      ]
+    },
+    {
+      "title": "Data Communication and Networking - Guess Paper 3",
+      "icon": "./assets/images/icon-guess-paper3.svg",
+      "questions": [
+        {
+          "question": "Which layer in the OSI model is responsible for data encapsulation into frames?",
+          "options": [
+            "Network Layer",
+            "Transport Layer",
+            "Link Layer",
+            "Application Layer"
+          ],
+          "answer": "Link Layer"
         },
         {
-          "question": "Which of these is not a valid way to initialize an array in Java?",
-          "options": ["int[] arr = new int[5];", "int[] arr = {1, 2, 3};", "int[] arr = new int[5]{1, 2, 3};", "int arr[] = new int[]{1, 2, 3};"],
-          "answer": "int[] arr = new int[5]{1, 2, 3};"
+          "question": "What is a MAC address used for?",
+          "options": [
+            "Uniquely identifying devices on a network",
+            "Transmitting data between networks",
+            "Encrypting communication",
+            "Determining IP addresses"
+          ],
+          "answer": "Uniquely identifying devices on a network"
+        },
+        {
+          "question": "What is the primary function of an Ethernet switch?",
+          "options": [
+            "To route packets between networks",
+            "To forward frames based on MAC addresses",
+            "To encrypt data",
+            "To handle multicast traffic"
+          ],
+          "answer": "To forward frames based on MAC addresses"
+        },
+        {
+          "question": "Which network topology connects all devices to a common shared medium?",
+          "options": [
+            "Star",
+            "Bus",
+            "Ring",
+            "Mesh"
+          ],
+          "answer": "Bus"
+        },
+        {
+          "question": "What does the term 'broadcast domain' refer to?",
+          "options": [
+            "A network segment where all devices receive the same broadcast traffic",
+            "A network segment that uses encryption",
+            "A wireless network area",
+            "A domain used for DNS routing"
+          ],
+          "answer": "A network segment where all devices receive the same broadcast traffic"
+        },
+        {
+          "question": "Which field in an IP datagram specifies the protocol used by the upper layers?",
+          "options": [
+            "TTL",
+            "Protocol",
+            "Version",
+            "Checksum"
+          ],
+          "answer": "Protocol"
+        },
+        {
+          "question": "Which of the following is true about IPv4 addresses?",
+          "options": [
+            "They are 128-bit addresses",
+            "They are 32-bit addresses",
+            "They are reserved for private networks",
+            "They are used only in the US"
+          ],
+          "answer": "They are 32-bit addresses"
+        },
+        {
+          "question": "Which of the following protocols is connectionless?",
+          "options": [
+            "TCP",
+            "IP",
+            "Ethernet",
+            "UDP"
+          ],
+          "answer": "UDP"
+        },
+        {
+          "question": "What is the function of a router in a network?",
+          "options": [
+            "To forward data between different networks",
+            "To broadcast data to all devices",
+            "To resolve IP addresses",
+            "To encrypt network traffic"
+          ],
+          "answer": "To forward data between different networks"
+        },
+        {
+          "question": "Which protocol is used for file transfer over the Internet?",
+          "options": [
+            "FTP",
+            "SMTP",
+            "TCP",
+            "DNS"
+          ],
+          "answer": "FTP"
         }
       ]
     }
